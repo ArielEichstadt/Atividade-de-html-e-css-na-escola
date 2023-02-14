@@ -1,0 +1,26 @@
+.titulo{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: blanchedalmond;
+}
+
+.imagem{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.imagem h3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+    background-color: black;
+}
+
+.paragrafo{
+    color: blanchedalmond;
+    text-align: center;
+    font-family: unset;
+}
