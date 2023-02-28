@@ -1,31 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-        
-
-    <title>AriSite</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
-<body>
-    
-    <div class="titulo">
-        <h1>Site Sobre Botos</h1>
-    </div>
-    <div class="paragrafo">
-    <p>
-        Teste em html
-    </p>
-</div>
 
-    <div class="imagem">
-        <img src="./img/boto.jpg"width="600x" height="400">
-        <h3>Quando adulto, o boto-cor-de-rosa pode atingir 2,7 metros de comprimento, pesar até 181 quilos e viver por até 30 anos. E, embora sejam criaturas tímidas, essa espécie é atraídas por pessoas, sem registros de comportamento agressivo.</h3>
-    </div>
-    <hr title="Linha Horizinta">
+<body>''
+    <h1>Trabalhando com tabelas</h1>
+    <form class="main-form">
+        <div class="fieldset-container">
+            <fieldset>
+                <legend>
+                    Dados Pessoais
+                </legend>
+                <p> NOME: </p>
+                <input type="text">
+                <p>SOBRENOME</p>
+                <input type="text">
+                <p>DATA DE NASCIMENTO:</p>
+                <input type="date">
+                <p>SEXO:</p>
+                <input type="radio" name="sexo"> M
+                <input type="radio" name="sexo"> F
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Dados Pessoais
+                </legend>
+                <p> Rua: </p>
+                <input type="text">
+                <p>Numero</p>
+                <input type="number">
+                <p>Escolha a cidade:</p>
+                <select>
+                    <option>Blumenau</option>
+                    <option>Indaial</option>
+                    <option>Pomerode</option>
 
+                    </select>
+            </fieldset>
+        </div>
+        <div class="input-container">
+            <input type="submit" value="Salvar"> 
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
+    <article>
+        <p>o comando <b>TABLE</b>serve para criar uma tabela</p>
+        <p>o comando <b>TH</b>serve para criar um título de coluna</p>
+        <p>o comando <b>TR</b>serve para criar uma linha na tabela</p>
+        <p>o comando <b>TD</b>serve para criar os dados da coluna</p>
+        <hr>
+        <table class="main-table">
+            <th>NOME</th> <th>SOBRENOME</th> <th>EMAIL</th>
+            <tr>
+                <td>José</td> <td>Silva</td> <td>js@gmail.com</td>                
+            </tr>
+            <tr>
+                <td>Maria</td> <td>Santos</td> <td>mas@gmail.com</td>
+            </tr>
+        </table>  
+    </article>
 
 </body>
+
 </html>

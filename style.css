@@ -1,27 +1,85 @@
-.titulo{
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    color: blanchedalmond;
+body {
+    background-color: cornflowerblue;
 }
 
-.imagem{
+.main-form {
+    width: 500px;
     display: flex;
-    align-items: center;
-    gap: 8px;
-}
-.imagem h3{
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    
-}
-
-body{
-    background-color: black;
+    justify-content: center;
+    background-color: rgb(181, 235, 245);
+    border: darkorange;
+    flex-direction: column;
+    width: 100%;
+    float: left;
 }
 
-.paragrafo{
-    color: blanchedalmond;
+select {
+    margin: 25px;
+    border: solid 5px rgb(12, 12, 15);
+    border-radius: 30px;
+    background-color: rgb(146, 235, 238);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
     text-align: center;
-    font-family: unset;
 }
 
+* {
+    box-sizing: box-sizing;
+}
+
+fieldset{
+    float: left;
+    width: 45%;
+}
+
+div{
+    float: left;
+    width: 100%;
+    padding: 15px;
+}
+
+.fieldset-container {
+    display: flex;
+}
+
+.input-container {
+    width: 100%;
+    overflow: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.input-container input{
+    background: rgb(217, 250, 71);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 15px;
+    font-weight: 600;
+    color: #111;
+}
+
+.main-table {
+    border: solid #000 1px;
+    border-radius: 15px;
+    padding: 10px 15px;
+}
+
+.main-table td{
+    border: solid #000 1px;
+    padding: 10px 15px;
+}
+
+.main-table tr{
+    border: solid #000 1px;
+    padding: 10px 15px;
+}
+
+.main-table th{
+    border: solid #000 1px;
+    padding: 10px 15px;
+    color: #fff;
+}
